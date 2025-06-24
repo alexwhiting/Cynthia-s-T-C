@@ -1,0 +1,458 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cynthia's Tutoring & Consulting</title>
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+  <!-- External CSS-->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+  
+  <div id="page-container">
+
+    <!-- Everything except for footer -->
+    <div id="content-wrap">
+
+      <!-- Header-->
+       <header class="header">
+        <div class="row" style="display: flex; align-items: center; justify-content: space-between;">
+          <div class="col-4">
+            <a href="index.html"><img src="images/logo.jpg" alt="Cynthia's Tutoring & Consulting Logo" class="logo"></a>
+          </div>
+          <div class="col-4 navbar">
+            <nav>
+              <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about-bookmark">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col-4 header-button-container">
+            <button class="header-button" data-bs-toggle="modal" data-bs-target="#contactModal">Get Started</button>
+          </div>
+        </div>
+       </header>
+
+      <!-- Main Content -->
+        <div id="about-bookmark" class="row about-us align-items-center">
+          <div class="col-lg-6 col-md-12">
+            <img src="images/placeholder.jpg" alt="Picture of Cynthia" class="about-image img-fluid">
+          </div>
+          <div class="col-lg-6 col-md-12 about-content">
+            <h1>About Me</h1>
+            <p class="about-text">Hello, my name is Cynthia! I am a passionate and caring educator with over 20 years of experience supporting learners across Canada. My teaching journey has taken me from urban classrooms in Nova Scotia to remote Northern communities in Manitoba and Ontario, where I’ve worked as a teacher, principal, resource specialist, and consultant.</p>
+            <p class="about-text">I hold a Bachelor of Science, with a double major in Math and Biology, a Bachelor of Education with Math and Science as my Teachable subjects, and two Master’s degrees in education - one in Curriculum Studies (with a focus on supporting learners with diverse learning needs) and one currently in progress in School Counselling. I’m also certified in multiple provinces and trained in trauma-informed care, restorative practices, and inclusive education strategies.</p>
+            <p class="about-text">Whether I’m teaching math, building literacy skills, or consulting on education planning, I bring a heart-first, student-centered approach to every interaction. I believe all learners can thrive with the right support, and I’m here to help make that happen.</p>
+            <button id="aboutButton" class="about-button">My Services</button>
+          </div>
+        </div>
+
+        <!-- Areas of Expertise -->
+        <div class="row expertise-section">
+          <div class="col-12 text-center">
+            <h2 class="section-title">Areas of Expertise</h2>
+            <div class="divider mx-auto"></div>
+          </div>
+          
+          <div class="col-md-4 mb-4">
+            <div class="expertise-card">
+              <div class="expertise-icon">
+                <i class="fas fa-square-root-alt"></i>
+              </div>
+              <h3>Mathematics</h3>
+              <ul>
+                <li>Elementary Math</li>
+                <li>Algebra</li>
+                <li>Geometry</li>
+                <li>Trigonometry</li>
+                <li>Statistics</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="col-md-4 mb-4">
+            <div class="expertise-card">
+              <div class="expertise-icon">
+                <i class="fas fa-flask"></i>
+              </div>
+              <h3>Sciences</h3>
+              <ul>
+                <li>Biology</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="col-md-4 mb-4">
+            <div class="expertise-card">
+              <div class="expertise-icon">
+                <i class="fas fa-language"></i>
+              </div>
+              <h3>Language Arts</h3>
+              <ul>
+                <li>Reading Comprehension</li>
+                <li>Writing Skills</li>
+                <li>Grammar & Syntax</li>
+                <li>Literature Analysis</li>
+                <li>College Essays</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="col-md-6 mb-4">
+            <div class="expertise-card">
+              <div class="expertise-icon">
+                <i class="fas fa-graduation-cap"></i>
+              </div>
+              <h3>Test Preparation</h3>
+              <ul>
+                <li>SAT/ACT Prep</li>
+                <li>GRE/GMAT</li>
+                <li>AP Exam Preparation</li>
+                <li>State Standardized Tests</li>
+                <li>Study Skills</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="col-md-6 mb-4">
+            <div class="expertise-card">
+              <div class="expertise-icon">
+                <i class="fas fa-user-graduate"></i>
+              </div>
+              <h3>Inclusive & Trauma-Informed Practices</h3>
+              <ul>
+                <li>Learning Disabilities</li>
+                <li>Complex Needs</li>
+                <li>Anxiety-reduced testing strategies</li>
+                <li>Self-regulation techniques</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonials Section -->
+        <div class="row testimonials-section">
+          <div class="col-12 text-center">
+            <h2 class="section-title">What My Students Say</h2>
+            <div class="divider mx-auto"></div>
+          </div>
+          
+          <div class="col-md-4 mb-4">
+            <div class="testimonial-card">
+              <div class="testimonial-content">
+                <i class="fas fa-quote-left quote-icon"></i>
+                <p class="testimonial-text">Cynthia broke things down in a way that finally made sense to me. She also provided me many valuable study strategies.</p>
+                <i class="fas fa-quote-right quote-icon"></i>
+              </div>
+              <div class="testimonial-author">
+                <h5>Connor Hill</h5>
+                <p class="author-title">Former High School Student</p>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-4 mb-4">
+            <div class="testimonial-card">
+              <div class="testimonial-content">
+                <i class="fas fa-quote-left quote-icon"></i>
+                <p class="testimonial-text">insert testimony</p>
+                <i class="fas fa-quote-right quote-icon"></i>
+              </div>
+              <div class="testimonial-author">
+                <h5>Insert name</h5>
+                <p class="author-title">Insert Grade</p>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-4 mb-4">
+            <div class="testimonial-card">
+              <div class="testimonial-content">
+                <i class="fas fa-quote-left quote-icon"></i>
+                <p class="testimonial-text">insert testimony</p>
+                <i class="fas fa-quote-right quote-icon"></i>
+              </div>
+              <div class="testimonial-author">
+                <h5>insert name</h5>
+                <p class="author-title">insert grade</p>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ Section -->
+        <div class="row faq-section">
+          <div class="col-12 text-center">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="divider mx-auto"></div>
+          </div>
+          
+          <div class="col-md-8 mx-auto">
+            <div class="accordion" id="faqAccordion">
+              <!-- FAQ Item 1 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    What subjects do you tutor?
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                    I specialize in mathematics (from basic arithmetic to calculus), science (biology, chemistry, physics), English/language arts, and test preparation (SAT, ACT, GRE). I also offer college application consulting and study skills coaching.
+                  </div>
+                </div>
+              </div>
+              
+              <!-- FAQ Item 2 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    How do online sessions work?
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                    Online sessions are conducted via Zoom or Google Meet. Before each session, I'll share any materials you'll need. During the session, we'll use a virtual whiteboard and screen sharing to work through problems together, just like we would in person.
+                  </div>
+                </div>
+              </div>
+              
+              <!-- FAQ Item 3 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    What is your cancellation policy?
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                    I require 24 hours notice for cancellations. Cancellations with less than 24 hours notice will be charged 50% of the session fee. No-shows will be charged the full session fee.
+                  </div>
+                </div>
+              </div>
+              
+              <!-- FAQ Item 4 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    How do you personalize your tutoring approach?
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                    During our first session, I assess the student's learning style, strengths, and areas for improvement. I then tailor my teaching methods accordingly, whether that means using more visual aids, hands-on activities, or breaking concepts into smaller steps.
+                  </div>
+                </div>
+              </div>
+              
+              <!-- FAQ Item 5 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFive">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    Do you offer package deals or discounts?
+                  </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                    Yes! I offer discounted rates for purchasing sessions in packages of 5 or 10. I also offer a 15% sibling discount when tutoring multiple children from the same family. Please contact me for current pricing.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row" style="display: flex; align-items: center; justify-content: space-between;">
+          <div class="col-4">
+            <a href="index.html"><img src="images/logo.jpg" alt="Cynthia's Tutoring & Consulting Logo" class="logo"></a>
+          </div>
+          <div class="col-4 navbar">
+            <nav>
+              <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about-bookmark">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col-4 header-button-container">
+            <button class="header-button" data-bs-toggle="modal" data-bs-target="#contactModal">Get Started</button>
+          </div>
+        </div>
+    </div>
+  </footer>
+
+  
+  <!-- Modal Form -->
+  <div class="modal fade" id="contactModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title">Get Started Today</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form id="modalContactForm" action="https://formspree.io/f/xvgrvgro" method="POST">
+            
+            <input type="hidden" name="_replyto" value="alexanderwhiting@icloud.com">
+            <input type="hidden" name="_subject" value="New Tutoring Request">
+            
+            <div class="form-group mb-4">
+              <label class="form-label visible-label">Full Name*</label>
+              <input type="text" class="form-control" name="name" required>
+            </div>
+            
+            <div class="form-group mb-4">
+              <label class="form-label visible-label">Email*</label>
+              <input type="email" class="form-control" name="email" required>
+            </div>
+            
+            <div class="form-group mb-4">
+              <label class="form-label visible-label">Phone</label>
+              <input type="tel" class="form-control" name="phone">
+            </div>
+            
+            <div class="form-group mb-4">
+              <label class="form-label visible-label">Service Needed*</label>
+              <select class="form-select" name="service" required>
+                <option value="" disabled selected>Select service</option>
+                <option value="Math Tutoring">Math Tutoring</option>
+                <option value="Science Tutoring">Science Tutoring</option>
+                <option value="Test Prep">Test Preparation</option>
+                <option value="College Consulting">College Consulting</option>
+              </select>
+            </div>
+            
+            <div class="form-group mb-4">
+              <label class="form-label visible-label">Message*</label>
+              <textarea class="form-control" name="message" rows="4" required></textarea>
+            </div>
+            
+            <input type="text" name="_gotcha" style="display:none">
+            
+            <div class="d-grid">
+              <button type="submit" class="btn submit-btn">
+                <span class="submit-text" style="color: white;">Send Request</span>
+                <span class="spinner-border spinner-border-sm d-none" role="status"></span>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById('modalContactForm').addEventListener('submit', async function(e) {
+      e.preventDefault();
+      const form = e.target;
+      const submitBtn = form.querySelector('button[type="submit"]');
+      const submitText = submitBtn.querySelector('.submit-text');
+      const spinner = submitBtn.querySelector('.spinner-border');
+      
+      submitText.textContent = 'Sending...';
+      spinner.classList.remove('d-none');
+      submitBtn.disabled = true;
+      
+      try {
+        const response = await fetch(form.action, {
+          method: 'POST',
+          body: new FormData(form),
+          headers: { 'Accept': 'application/json' }
+        });
+        
+        if (response.ok) {
+          // Success message
+          form.innerHTML = `
+            <div class="text-center py-4" style="color: white;">
+              <i class="fas fa-check-circle mb-3" style="font-size: 3rem;"></i>
+              <h3>Thank You!</h3>
+              <p>Your request has been sent to Cynthia. You'll receive a response within 24 hours.</p>
+              <button class="success-close-btn mt-3" data-bs-dismiss="modal">
+                Close
+              </button>
+            </div>
+          `;
+          // Optional: Track conversion
+          if (typeof gtag !== 'undefined') {
+            gtag('event', 'conversion', {'send_to': 'AW-YOUR_GOOGLE_ADS_ID'});
+          }
+        } else {
+          throw new Error('Form submission failed');
+        }
+      } catch (error) {
+        form.innerHTML = `
+          <div class="alert alert-danger">
+            <i class="fas fa-exclamation-triangle me-2"></i>
+            Message failed to send. Please email directly to:
+            <a href="mailto:alexanderwhiting@icloud.com">alexanderwhiting@icloud.com</a>
+          </div>
+          <button class="btn btn-secondary mt-3" onclick="location.reload()">Try Again</button>
+        `;
+      } finally {
+        submitText.textContent = 'Send Request';
+        spinner.classList.add('d-none');
+        submitBtn.disabled = false;
+      }
+    });
+
+    // Reset form when modal closes
+    document.getElementById('contactModal').addEventListener('hidden.bs.modal', function() {
+      const form = document.getElementById('modalContactForm');
+      if (form) form.reset();
+    });
+  </script>
+
+  <script>
+    document.getElementById('aboutButton').addEventListener('click', function() {
+      window.open('services.html');
+    });
+  </script>
+
+</body>
+</html>
