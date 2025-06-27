@@ -226,6 +226,10 @@
     width: 70px;
     height: 70px;
   }
+
+  .row.justify-content-center {
+    row-gap: 2rem;
+  }
 }
 
 .services-section {
@@ -379,44 +383,52 @@
 }
 
 /* FAQ Section */
+/* FAQ Section Enhancements */
 .faq-section {
   background-color: var(--accent-color);
   padding: 5rem 2rem;
 }
 
-.accordion {
+.faq-section .accordion {
   border-radius: 10px;
   overflow: hidden;
 }
 
-.accordion-item {
+.faq-section .accordion-item {
   background-color: var(--primary-color);
   border: none;
   margin-bottom: 0.5rem;
+  border-radius: 8px !important;
 }
 
-.accordion-button {
+.faq-section .accordion-button {
   background-color: var(--primary-color);
   color: var(--secondary-color);
   font-weight: bold;
   padding: 1.25rem;
+  border-radius: 8px !important;
 }
 
-.accordion-button:not(.collapsed) {
+.faq-section .accordion-button:not(.collapsed) {
   background-color: rgba(255, 215, 97, 0.1);
   color: var(--secondary-color);
   box-shadow: none;
 }
 
-.accordion-button:focus {
+.faq-section .accordion-button:focus {
   box-shadow: none;
   border-color: var(--secondary-color);
 }
 
-.accordion-body {
+.faq-section .accordion-button::after {
+  filter: brightness(0) saturate(100%) invert(77%) sepia(36%) saturate(629%) hue-rotate(349deg) brightness(104%) contrast(101%);
+}
+
+.faq-section .accordion-body {
   background-color: rgba(255, 255, 255, 0.9);
   color: var(--primary-color);
   padding: 1.25rem;
+  border-radius: 0 0 8px 8px;
 }
 
 /* Responsive adjustments */
@@ -433,8 +445,6 @@
     padding: 1.5rem;
   }
 }
-
-/* Add these to your existing styles.css */
 
 /* About Me Section */
 .about-us {
@@ -596,47 +606,6 @@
 
 .rating {
   color: var(--secondary-color);
-}
-
-/* FAQ Section */
-.faq-section {
-  background-color: var(--primary-color);
-  padding: 5rem 2rem;
-}
-
-.accordion {
-  border-radius: 10px;
-  overflow: hidden;
-}
-
-.accordion-item {
-  background-color: var(--accent-color);
-  border: none;
-  margin-bottom: 0.5rem;
-}
-
-.accordion-button {
-  background-color: var(--accent-color);
-  color: var(--secondary-color);
-  font-weight: bold;
-  padding: 1.25rem;
-}
-
-.accordion-button:not(.collapsed) {
-  background-color: rgba(255, 215, 97, 0.1);
-  color: var(--secondary-color);
-  box-shadow: none;
-}
-
-.accordion-button:focus {
-  box-shadow: none;
-  border-color: var(--secondary-color);
-}
-
-.accordion-body {
-  background-color: rgba(255, 255, 255, 0.9);
-  color: var(--primary-color);
-  padding: 1.25rem;
 }
 
 /* Responsive adjustments */
