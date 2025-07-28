@@ -186,12 +186,12 @@
 .card-title {
   font-weight: 700;
   margin-bottom: 1rem;
-  color: white !important;
+  color: black;
   font-size: 1.5rem;
 }
 
 .card-text {
-  color: rgba(255, 255, 255, 0.9);
+  color: black;
   font-size: 1.1rem;
   margin-bottom: 2rem;
 }
