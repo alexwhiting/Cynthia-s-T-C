@@ -3,8 +3,8 @@
 }
 
 :root {
-  --primary-color: #1F552A;
-  --secondary-color: #F2E9C0;
+  --primary-color: #d0979e;
+  --secondary-color: black;
   --accent-color: #FFFFFF;
 }
 
@@ -925,4 +925,17 @@
 
 .service-card p {
   color: white;
+}
+
+.leaf-image {
+  width: 10vw;
+  height: auto;
+  float: right;
+  vertical-align: top;
+}
+
+@media (max-width: 990px) {
+  .leaf-image {
+    display: none;
+  }
 }
