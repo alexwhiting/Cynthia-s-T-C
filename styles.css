@@ -91,7 +91,7 @@
 }
 
 .services-header {
-  color: var(--secondary-color);
+  color: var(--primary-color);
   font-weight: bold;
   vertical-align: middle;
   display: flex;
@@ -119,14 +119,9 @@
   display: block;
   height: 2px;
   width: 50%;
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
   margin-top: 1rem;
   margin-left: 5rem;
-}
-
-.services-subheadings {
-  color: var(--secondary-color);
-  padding: 5rem;
 }
 
 .contact-info {
@@ -135,7 +130,7 @@
 }
 
 .contact-header {
-  color: var(--secondary-color);
+  color: var(--primary-color);
   text-align: center;
   margin: auto;
   font-size: 4rem;
@@ -245,7 +240,7 @@
 }
 
 .services-subheadings {
-  color: var(--secondary-color);
+  color: var(--primary-color);
   font-size: 2.5rem;
   font-weight: 700;
   padding: 2rem 5rem;
@@ -254,12 +249,12 @@
 .divider {
   height: 3px;
   width: 100px;
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
   margin: 1rem 5rem;
 }
 
 .service-card {
-  background: var(--accent-color); 
+  background: var(--primary-color); 
   border-radius: 15px;
   padding: 2rem;
   height: 100%;
@@ -562,7 +557,7 @@
 .divider {
   height: 3px;
   width: 100px;
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
   margin-bottom: 3rem;
 }
 
@@ -819,7 +814,7 @@
 
 .mobile-header {
   display: none;
-  background-color: #2D3E50;
+  background-color: var(--primary-color);
   padding: 1rem;
   position: relative;
 }
