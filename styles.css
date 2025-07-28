@@ -30,7 +30,6 @@
   text-decoration: none;
   color: var(--secondary-color);
   font-size: 1.2rem;
-  font-weight: bold;
 }
 
 .nav-links a:hover {
@@ -53,12 +52,11 @@
 .header-button {
   border: none;
   background-color: var(--secondary-color);
-  color: var(--primary-color);
+  color: white;
   border-radius: 2rem;
   border-color: var(--primary-color);
   padding: 1rem 2rem;
   font-size: 1.2rem;
-  font-weight: bold;
   transition: all 0.3s ease;
 }
 
@@ -125,7 +123,7 @@
 }
 
 .contact-info {
-  background-color: var(--primary-color);
+  background-color: white;
   padding-bottom: 4rem;
 }
 
@@ -138,12 +136,16 @@
   padding-top: 5rem;
 
 }
-
-.contact-info {
+.contact-header::after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 30%;
   background-color: var(--primary-color);
-  padding: 2rem;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
 }
-
 .contact-header {
   color: var(--secondary-color);
   text-align: center;
@@ -468,7 +470,7 @@
 }
 
 .about-text {
-  color: var(--primary-color);
+  color: black;
   margin-bottom: 1.5rem;
   font-size: 1.1rem;
   line-height: 1.6;
@@ -487,7 +489,7 @@
 
 .about-button:hover {
   transform: translateY(-3px);
-  box-shadow: 0 2px 2px rgba(31, 85, 42, 1);
+  box-shadow: 0 2px 2px rgba(208, 151, 158, 0.5);
 }
 
 /* Expertise Section */
@@ -517,13 +519,13 @@
 }
 
 .expertise-card h3 {
-  color: var(--primary-color);
+  color: black;
   margin-bottom: 1.5rem;
   font-weight: bold;
 }
 
 .expertise-card ul {
-  color: var(--primary-color);
+  color: black;
   padding-left: 1.5rem;
 }
 
@@ -535,7 +537,7 @@
 
 .expertise-card li::before {
   content: "•";
-  color: var(--primary-color);
+  color: black;
   font-weight: bold;
   position: absolute;
   left: -1em;
@@ -754,7 +756,7 @@
   font-size: 1.1rem;
 }
 
-/* Loading Spinner */
+
 .spinner-border {
   color: var(--primary-color);
   width: 1.2rem;
@@ -762,7 +764,7 @@
   border-width: 0.2em;
 }
 
-/* Add to your CSS file */
+
 .success-message {
   color: white;
   text-align: center;
@@ -792,7 +794,7 @@
   padding: 0.5rem 1.5rem;
 }
 
-/* Add this to your CSS */
+
 .success-close-btn {
   background-color: var(--secondary-color) !important;
   color: var(--primary-color) !important;
@@ -817,25 +819,31 @@
   background-color: var(--primary-color);
   padding: 1rem;
   position: relative;
+  min-height: 80px; 
+  height: auto; 
+  overflow: hidden; 
 }
 
 .mobile-header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 100%;
+  padding: 0.5rem 1rem; 
 }
 
 .mobile-logo {
   height: auto;
-  max-width: 40vw;
+  width: 40vw;
 }
 
 .mobile-menu-button {
   background: none;
   border: none;
-  color: #FFD761;
-  font-size: 1.5rem;
+  color: var(--secondary-color); 
+  font-size: 2rem;
   cursor: pointer;
+  padding: 0.5rem; 
 }
 
 .mobile-dropdown {
