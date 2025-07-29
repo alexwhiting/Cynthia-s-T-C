@@ -67,7 +67,6 @@
 
 .about-us {
   background-color: var(--accent-color);
-  padding: 5rem;
 }
 
 .about-us h1 {
@@ -76,11 +75,6 @@
   font-weight: bold;
 }
 
-.about-image {
-  height: 450px;
-  width: 100%;
-  object-fit: cover;
-}
 
 .services {
   margin: 5rem;
@@ -450,11 +444,9 @@
   }
 }
 
-/* About Me Section */
 .about-us {
   background-color: var(--accent-color);
   padding: 5rem 2rem;
-  min-height: 600px;
 }
 
 .about-image {
@@ -936,7 +928,7 @@
 }
 
 .leaf-image {
-  width: 10vw;
+  width: 15vw;
   height: auto;
   float: right;
   vertical-align: top;
@@ -947,3 +939,5 @@
     display: none;
   }
 }
+
+
