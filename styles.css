@@ -419,12 +419,12 @@
 }
 
 .faq-section .accordion-button::after {
-  filter: brightness(0) saturate(100%) invert(77%) sepia(36%) saturate(629%) hue-rotate(349deg) brightness(104%) contrast(101%);
+  color: black;
 }
 
 .faq-section .accordion-body {
   background-color: rgba(255, 255, 255, 0.9);
-  color: var(--primary-color);
+  color: black;
   padding: 1.25rem;
   border-radius: 0 0 8px 8px;
 }
