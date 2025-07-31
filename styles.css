@@ -928,9 +928,16 @@
   vertical-align: top;
 }
 
-@media (max-width: 990px) {
+@media (max-width: 992px) {
   .leaf-image {
     display: none;
+  }
+
+  .about-image {
+    width: 80vw;
+    height: auto;
+    display: block;
+    margin: 0 auto;
   }
 }
 
@@ -938,5 +945,11 @@
   .logo {
     height: 123px;
     width: 177px;
+  }
+}
+
+@media (min-width: 1245px) {
+  .leaf-image {
+    width: 10vw;
   }
 }
