@@ -708,8 +708,7 @@
 
 /* Close Button */
 .btn-close {
-  filter: invert(77%) sepia(36%) saturate(629%) hue-rotate(349deg) brightness(104%) contrast(101%);
-  opacity: 0.9;
+  color: var(--secondary-color);
   transition: all 0.2s ease;
 }
 
