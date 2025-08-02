@@ -1092,3 +1092,9 @@
     display: none;
   }
 }
+
+@media (max-width: 770px) {
+  .row.education-section {
+    row-gap: 1rem;
+  }
+}
