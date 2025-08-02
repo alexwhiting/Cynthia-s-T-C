@@ -487,6 +487,7 @@
   height: 100%;
   transition: all 0.3s ease;
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  font-size: 0.9rem;
 }
 
 .expertise-card:hover {
@@ -881,7 +882,7 @@
   width: fit-content;
 }
 
-@media (max-width: 870px) {
+@media (max-width: 992px) {
   .header {
     display: none;
   }
@@ -953,8 +954,6 @@
     width: 10vw;
   }
 }
-
-/* Credentials Page */
 
 /* Credentials Page Styles */
 .credentials-section {
