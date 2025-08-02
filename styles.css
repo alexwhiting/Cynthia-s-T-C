@@ -955,3 +955,145 @@
 }
 
 /* Credentials Page */
+
+/* Credentials Page Styles */
+.credentials-section {
+  background-color: var(--accent-color);
+  padding: 5rem 2rem;
+}
+
+.credentials-header {
+  color: var(--primary-color);
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.credentials-content {
+  padding: 0 3rem;
+  margin-bottom: 5rem;
+}
+
+.credentials-content h2 {
+  color: var(--primary-color);
+  font-weight: bold;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.credentials-content p {
+  color: black;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.credentials-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.experience-card {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+  background-color: rgba(208, 151, 158, 0.1);
+  padding: 1.5rem;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.experience-card:hover {
+  background-color: rgba(208, 151, 158, 0.2);
+  transform: translateY(-3px);
+}
+
+.experience-icon {
+  font-size: 1.8rem;
+  color: var(--primary-color);
+  margin-right: 1.5rem;
+  min-width: 40px;
+}
+
+.experience-details h3 {
+  color: var(--primary-color);
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.experience-details p {
+  margin-bottom: 0;
+  color: black;
+}
+
+.education-section {
+  margin-top: 4rem;
+}
+
+.education-section h2 {
+  color: var(--primary-color);
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.education-card {
+  background-color: var(--primary-color);
+  border-radius: 15px;
+  padding: 2rem;
+  height: 100%;
+  margin-bottom: 2rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.education-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.education-icon {
+  font-size: 2rem;
+  color: var(--secondary-color);
+  margin-bottom: 1rem;
+}
+
+.education-card h3 {
+  color: var(--secondary-color);
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.education-card ul {
+  color: white;
+  padding-left: 1.5rem;
+}
+
+.education-card li {
+  margin-bottom: 0.8rem;
+  position: relative;
+  list-style-type: none;
+}
+
+.education-card li::before {
+  content: "•";
+  color: var(--secondary-color);
+  font-weight: bold;
+  position: absolute;
+  left: -1em;
+}
+
+@media (max-width: 992px) {
+  .credentials-content {
+    padding: 0;
+    margin-bottom: 3rem;
+  }
+  
+  .leaf-image {
+    display: none;
+  }
+}
